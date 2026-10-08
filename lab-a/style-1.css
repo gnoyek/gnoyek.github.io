@@ -1,26 +1,57 @@
 body {
-  background-color: #498649;
+  background-color: #eef3e5;
   font-family: "Times New Roman", serif;
-  font-size: 16px;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header,footer {
+  flex-shrink: 0;
 }
 
 header {
-  background-color: #5fe252;
-  padding: 20px;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-image: url("https://blog.alexandrasports.com/wp-content/uploads/2024/10/Choosing-the-best-trail-shoes.jpg");
+  background-size: cover;
+  color: white;
+  text-shadow: black 2px 2px 3px;
+}
+
+hgroup {
+  font-size: 1.5em;
   text-align: center;
-  height: 20vh;
 }
 
 main {
-  padding: 20px;
-  height: 70vh;
+  padding: 50px;
+  height: auto;
+  flex: 1;
 }
 
 footer {
-  background-color: #5fe252;
+  background-color: #14532d;
   padding: 20px;
   text-align: center;
+  color: white;
   height: 10vh;
 }
 
+h2 {
+  background: linear-gradient(90deg, #14532d, #166534, #15803d, #16a34a, #22c55e);
+  color: white;
+  padding: 15px;
+}
 
+.paragraphs {
+  border-left: 6px solid #22c55e;
+  border-right: 6px solid #22c55e;
+  padding-right: 24px;
+  padding-left: 24px;
+}
