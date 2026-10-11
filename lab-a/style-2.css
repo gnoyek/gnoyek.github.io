@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: white;
+  background: linear-gradient(90deg,#30b6ee,#79d8f6,#ffffff,#ffffff, #79d8f6,#30b6ee);
   color: black;
   padding: 2rem;
   text-align: center;
@@ -19,10 +19,11 @@ main {
 }
 
 footer {
-  background-color: #18382b;
+  background-image: url("https://as1.ftcdn.net/v2/jpg/06/71/68/16/1000_F_671681650_z6EOyAVTOIWvZX5rwicFhzY3IaRoOEH5.jpg");
   padding: 1.5rem;
   text-align: center;
-  color: white;
+  text-shadow: #30b6ee 1px 1px 2px;
+  color: black;
 }
 
 .paragraphs {
@@ -35,8 +36,28 @@ footer {
 p,ul {
   break-inside: avoid;
 }
+
+/* AI Generated */
+li::marker {
+  content: "* ";
+  color: #30b6ee;
+  font-size: 2em;
+}
+/* - */
+ul {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
 p {
   margin: 0;
+  line-height: 1.6;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  break-after: avoid-column;
 }
 
 h2 {
@@ -46,4 +67,10 @@ h2 {
   margin: 1.5rem 0 1rem;
   padding: 0.75rem 0rem;
   border-bottom: black 2px solid;
+  text-shadow: #30b6ee 1px 1px 2px;
+}
+
+h3 {
+  text-decoration: underline;
+  font-style: italic;
 }
