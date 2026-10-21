@@ -1,0 +1,43 @@
+body {
+  background-color: #f3fff3;
+}
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.delete-task {
+  cursor: pointer;
+  margin-left: 0;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.search-bar {
+  width: 100%;
+}
+
+.task-list {
+  padding: 10px;
+}
+
+.add-task-input {
+  width: 50%;
+}
+
+.task-date {
+  margin-left: auto;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+    color: gray;
+}
