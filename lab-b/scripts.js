@@ -86,6 +86,7 @@ class Todo {
         return true;
     }
 
+    // LLM generated function to highlight search term in task text
     highlight(text) {
         const escaped = text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
         if (this.term.length < 2) return escaped;

@@ -40,4 +40,5 @@ main {
 .task-item.completed {
     text-decoration: line-through;
     color: gray;
+    background-color: lightgray;
 }
